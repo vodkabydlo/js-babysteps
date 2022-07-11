@@ -156,3 +156,11 @@ function calculator(str) {
     
 
 }
+
+function calculate() {
+calculatedString = document.getElementById("expression").value
+
+calculatedString = calculator(calculatedString)
+
+document.getElementById("result").innerHTML = calculatedString
+}

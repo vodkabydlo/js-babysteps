@@ -8,3 +8,14 @@ function validatePin(pin) {
     }
     return true 
 }
+
+function comparison(p) {
+    if (p <= 5) {
+        return "p is less or equal than 5"
+    }
+    else if (p <= 10) {
+        return "p is bigger than 5 but less or equal than 10"
+    }
+    else return "p is bigger than 10"
+}
+
